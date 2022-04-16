@@ -35,10 +35,10 @@ background-color: #2196F3;}
 .portfolio-selection{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
     }
     .portfolio-item {
         margin: 8px;
+        margin-bottom: 50px;
      }
 .portfolio-title{
     padding-left: 24px;
