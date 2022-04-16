@@ -129,7 +129,7 @@ margin-right:50px ;
         margin-top: 0;
         margin-bottom: 45px;
         padding-top: 215px;
-        font-family: Roboto, sans-serif;
+     font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -188,12 +188,14 @@ margin-right:50px ;
 }*/
 /*justify-content: space-between; - розтягує по ширині *.
         /*about*/
-       
+     .about{
+       margin-bottom: 0;  
+       margin-top: 0;
+     }  
     .about-title{
         margin-top: 0;
-        margin-bottom:0;
-        padding-top: 94px;
-        padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 50px;
     font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 1.2;
@@ -213,11 +215,9 @@ margin-right: 30px;
        /* width:  calc(100%/3-30px);*/
         margin-left: 30px;
         }
-        .team {
-            padding-bottom: 0px;
-            }
-            .team-item{
-                margin-bottom: 94px;
+        
+          .team-item{
+                padding-bottom: 94px;
         }
        
      .team-list{
@@ -225,7 +225,9 @@ margin-right: 30px;
         justify-content: space-between;
      }
     .team-title{
-        
+        margin-top: 0;
+     padding-top: 94px;  
+     padding-bottom: 50px; 
     font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 1.2;
@@ -234,7 +236,7 @@ margin-right: 30px;
     color: var(--main-title-color);
         }
     .team-item-title{
-        
+
     font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -244,7 +246,7 @@ margin-right: 30px;
     color: var(--main-title-color);
         }
     .team-item-text{
-        
+    
      font-family: Roboto,sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -256,10 +258,15 @@ margin-right: 30px;
         .img{
         display: block;
          }
-   
+        .foto-team{
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+        }
          /*footer*/
        .footer{
-        margin-top: 0;
+          margin-top: 0;
           background: #2F303A;
         
         }
