@@ -55,17 +55,15 @@ body{
         margin: 0 auto;
         /*outline: 1px solid;*/
         }
-    .section {
+    /*.section {
         padding-bottom: 94px;
         padding-bottom: 94px;
-    }
+    }*/
 
   /*header*/
     .header{
         background-color:#FFFFFF;
-        padding-top: 40px;
-        padding-bottom: 0;
-      
+        padding: 32px 0 32px 0;
     }
     .header .container{
         display: flex;
@@ -75,8 +73,8 @@ body{
         display: flex;
     }
     .header-nav{
-        padding: 32px 0 32px 0;
         display: flex;
+        align-items: center;
     }
     .header-logo{
         margin-right: 95px;
@@ -155,9 +153,9 @@ margin-right:50px ;
     /*feature*/
 
     .feature-title{
-        margin-top: 0;
+        
         margin-bottom: 10px;
-        padding-top: 94px;
+       
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.9;
@@ -166,10 +164,7 @@ margin-right:50px ;
     color:var(--main-title-color);
         }
     .feature-text{
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-top: 30px;
-    font-family: Roboto, sans-serif;
+     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -179,6 +174,8 @@ margin-right:50px ;
         }
     .feature-list{
         display: flex; 
+        padding-top: 94px;
+        padding-bottom: 94px;
      }
     .feature-list .item{
         width: 270px;
@@ -190,13 +187,10 @@ margin-right:50px ;
 /*justify-content: space-between; - розтягує по ширині *.
         /*about*/
      .about{
-       margin-bottom: 0;  
-       margin-top: 0;
+     padding-bottom: 94px;  
      }  
     .about-title{
-        margin-top: 0;
-    padding-top: 94px;
-    padding-bottom: 50px;
+      margin-bottom: 92px; 
     font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 1.2;
@@ -217,19 +211,17 @@ margin-right: 30px;
         margin-left: 30px;
         }
         
-          .team-item{
-                padding-bottom: 94px;
-        }
+      .team{
+          padding-bottom: 94px;
+      }    
        
      .team-list{
-         display: flex;
+        display: flex;
         justify-content: space-between;
      }
     .team-title{
-        margin-top: 0;
-     padding-top: 94px;  
-     padding-bottom: 50px; 
-    font-family: Roboto, sans-serif;
+     margin-bottom: 50px;
+     font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -237,7 +229,6 @@ margin-right: 30px;
     color: var(--main-title-color);
         }
     .team-item-title{
-
     font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -247,8 +238,7 @@ margin-right: 30px;
     color: var(--main-title-color);
         }
     .team-item-text{
-    
-     font-family: Roboto,sans-serif;
+    font-family: Roboto,sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
@@ -260,6 +250,8 @@ margin-right: 30px;
         display: block;
          }
         .foto-team{
+            padding-top: 30px;
+            padding-bottom: 30px;
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
             0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -267,7 +259,8 @@ margin-right: 30px;
         }
          /*footer*/
        .footer{
-          margin-top: 0;
+          padding-top: 65px;
+          padding-bottom: 65px;
           background: #2F303A;
         
         }
@@ -282,6 +275,10 @@ margin-right: 30px;
         }
         address {
             font-style: normal;
+            margin-top: 40px;
+        }
+        .contact-address{
+            color: var(--hero-title-color);
         }
         .contact-link{
             font-family: Roboto,sans-serif;
@@ -289,5 +286,14 @@ margin-right: 30px;
             font-size: 14px;
             line-height: 1.7;
             letter-spacing: 0.03em;
-             color: #FFFFFF;
-        }
+           color: var(--hero-title-color); 
+         }
+         .contact{
+            font-family: Roboto,sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+         }
+       
