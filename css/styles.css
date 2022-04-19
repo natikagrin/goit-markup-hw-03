@@ -63,7 +63,7 @@ body{
   /*header*/
     .header{
         background-color:#FFFFFF;
-        padding: 32px 0 32px 0;
+        padding: 24px 0 24px 0;
     }
     .header .container{
         display: flex;
@@ -121,13 +121,14 @@ margin-right:50px ;
     .hero{
      background: #2F303A;
      text-align: center;
+    padding-top: 200px;
      }
     
     
     .hero-title{
         margin-top: 0;
         margin-bottom: 45px;
-        padding-top: 215px;
+        
      font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 44px;
@@ -151,11 +152,13 @@ margin-right:50px ;
     }
 
     /*feature*/
+    .feature{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 
     .feature-title{
-        
-        margin-bottom: 10px;
-       
+    margin-bottom: 10px;
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.9;
@@ -164,7 +167,7 @@ margin-right:50px ;
     color:var(--main-title-color);
         }
     .feature-text{
-     font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -174,12 +177,13 @@ margin-right:50px ;
         }
     .feature-list{
         display: flex; 
-        padding-top: 94px;
-        padding-bottom: 94px;
+     }
+     .item{
+         width: 270px;
      }
     .feature-list .item{
         width: 270px;
-        margin-left: 30px;
+        margin-left: 0;
     }
 /*.about-item + .about-item + .about-item{
     margin-left: 30px;
@@ -190,7 +194,8 @@ margin-right:50px ;
      padding-bottom: 94px;  
      }  
     .about-title{
-      margin-bottom: 92px; 
+    margin-top: 0;
+     margin-bottom: 50px; 
     font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 1.2;
@@ -213,6 +218,7 @@ margin-right: 30px;
         
       .team{
           padding-bottom: 94px;
+          padding-top: 94px;
       }    
        
      .team-list{
@@ -220,7 +226,6 @@ margin-right: 30px;
         justify-content: space-between;
      }
     .team-title{
-     margin-bottom: 50px;
      font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 1.2;
@@ -229,6 +234,8 @@ margin-right: 30px;
     color: var(--main-title-color);
         }
     .team-item-title{
+   margin-left: 0;
+   margin-right: 0;
     font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -238,6 +245,8 @@ margin-right: 30px;
     color: var(--main-title-color);
         }
     .team-item-text{
+   margin-left: 0;
+   margin-right: 0;
     font-family: Roboto,sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -259,12 +268,13 @@ margin-right: 30px;
         }
          /*footer*/
        .footer{
-          padding-top: 65px;
-          padding-bottom: 65px;
+          padding-top: 60px;
+          padding-bottom: 60px;
           background: #2F303A;
         
         }
         .footer-logo{
+            margin-bottom: 20px;
             font-family: 'Raleway';
             font-style: normal;
             font-weight: 700;
@@ -275,12 +285,12 @@ margin-right: 30px;
         }
         address {
             font-style: normal;
-            margin-top: 40px;
         }
         .contact-address{
             color: var(--hero-title-color);
         }
         .contact-link{
+            margin-bottom: 9px;
             font-family: Roboto,sans-serif;
             font-weight: 400;
             font-size: 14px;
