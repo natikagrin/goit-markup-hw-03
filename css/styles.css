@@ -29,7 +29,7 @@ body{
         color: #FFFFFF;
         /*білий колір лого*/
     }
-    }
+    
     
     p,
     h1,
@@ -252,8 +252,7 @@ margin-right: 30px;
     color: var(--main-title-color);
         }
     .team-item-title{
-   margin-left: 0;
-   margin-right: 0;
+  margin-bottom: 10px;
     font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
