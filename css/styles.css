@@ -35,7 +35,8 @@ body{
     h1,
     h2,
     h3,
-    h4 {
+    h4,
+    li {
         margin: 0;
     }
     
@@ -122,6 +123,15 @@ margin-right:50px ;
      background: #2F303A;
      text-align: center;
     padding-top: 200px;
+    background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ), 
+    url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
      }
     
     
@@ -136,6 +146,7 @@ margin-right:50px ;
     letter-spacing: 0.06em;
     color: var(--hero-title-color)
     }
+  
     /*button*/
     .button{
         display: inline-block;
@@ -177,13 +188,15 @@ margin-right:50px ;
         }
     .feature-list{
         display: flex; 
+        
      }
      .item{
          width: 270px;
-     }
+         }
+       
     .feature-list .item{
         width: 270px;
-        margin-left: 0;
+        margin-left: 30;
     }
 /*.about-item + .about-item + .about-item{
     margin-left: 30px;
@@ -226,6 +239,7 @@ margin-right: 30px;
         justify-content: space-between;
      }
     .team-title{
+     padding-bottom: 50px;
      font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 1.2;
@@ -247,6 +261,7 @@ margin-right: 30px;
     .team-item-text{
    margin-left: 0;
    margin-right: 0;
+   margin-bottom: 30px;
     font-family: Roboto,sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -265,6 +280,26 @@ margin-right: 30px;
             0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 2px 1px rgba(0, 0, 0, 0.2);
             border-radius: 0px 0px 4px 4px;
+        }
+/*посилання на соцмережі*/
+        .team-soc-link{
+            width: 44px;
+            height: 44px;
+            background-color: tomato;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .team-soc-list{
+            display: flex;
+            justify-content: center;
+        }
+        .team-soc-item + .team-soc-item{
+            margin-left: 10px;
+        }
+        .team-soc-icon{
+            fill: #FFFFFF;
         }
          /*footer*/
        .footer{
