@@ -192,11 +192,15 @@ margin-right:50px ;
      }
      .item{
          width: 270px;
+       
          }
+    .item:not(:last-child) {
+        margin-right: 30px;
+    }
        
     .feature-list .item{
         width: 270px;
-        margin-left: 30;
+       
     }
 /*.about-item + .about-item + .about-item{
     margin-left: 30px;
@@ -222,7 +226,7 @@ margin-right:50px ;
         }
        /* .about-item:not(:last-child){
 margin-right: 30px;
-        }*/
+        } відступи*/
         .about-item{
         flex-basis:cal(100-90px)/3;
        /* width:  calc(100%/3-30px);*/
@@ -334,6 +338,7 @@ margin-right: 30px;
            color: var(--hero-title-color); 
          }
          .contact{
+            margin-bottom: 9px;
             font-family: Roboto,sans-serif;
             font-weight: 400;
             font-size: 14px;
